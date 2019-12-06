@@ -41,6 +41,7 @@ module.exports = {
   devServer: {
     hot: true,
     open: true,
+    host: '0.0.0.0',
     compress: true,
     contentBase: '/www/',
     disableHostCheck: true,
